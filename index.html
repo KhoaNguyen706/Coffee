@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="coffee.js" defer></script>
+</head>
+<body>
+    <div id="container">
+    <h1>Select Blend and Number of Bags</h1>
+    <div id="input">
+        
+        <label for="choose_coffee">Choose your Blend</label>
+        <select name="choose_coffee" id="choose_coffee">
+            <option value="Espresso">Espresso</option>
+            <option value="Columbia">Columbia</option>
+            <option value="Vanilla">Vanilla</option>
+            <option value="Hazelnut">Hazelnut</option>
+            <option value="HouseBlend">HouseBlend</option>
+        </select>
+        <p>Number of Bags</p>
+        <input type="text" name="numbag" id="numbag">
+        <button id="caculate">caculate</button>
+    </div>
+
+    <div id="prediscount">
+        <h1>Pre-Discount</h1>
+        <h3 id="Blend">Blend</h3>
+        <h3 id="numbagtext">Number of Bags ordered</h3>
+        <h3 id="bagprice">Bag price</h3>
+        <h3 id="totalcost">Total cost</h3>
+    </div>
+
+    <div id="discount">
+        <h1 ></h1>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+    </div>
+    </div>
+    </body>
+</html>
